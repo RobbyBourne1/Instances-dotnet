@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace lifeModel_dotnet
+namespace Inheritance_dotnet
 {
     class Program
     {
