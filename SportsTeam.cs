@@ -2,7 +2,7 @@ using System;
 
 namespace Inheritance_dotnet
 {
-    public class SportsTeam 
+    public abstract class SportsTeam 
         {
             public string Sport { get; set; }
             public string Colors { get; set; }

@@ -32,20 +32,11 @@ namespace Inheritance_dotnet
         }
         static void Main(string[] args)
         {
-            var team = new SportsTeam();
+          
+            var baseball = new BaseballTeam("Yadier Molina");
 
-            team.Name = "St. Louis Cardinals";
-            team.Sport = "Baseball";
-            team.Colors = "Red and White";
-            team.Championships = 11;
-            Console.WriteLine(team);
+            baseball.Team();
 
-            team = new SportsTeam();
-            team.Name = "Green Bay Packers";
-            team.Sport = "FootBall";
-            team.Colors = "Green and Gold";
-            team.Championships = 4;
-            Console.WriteLine(team);
 
             var car = new Vehicle("VolksWagen", "2012");
             car.SUV("Robby Bourne");
@@ -55,4 +46,4 @@ namespace Inheritance_dotnet
         }
     }
 }
-Contact GitHub API Training Shop Blog About
+
